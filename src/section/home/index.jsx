@@ -22,13 +22,13 @@ export default function Home() {
           </div>
           <div className='iconsTodo' >
             <div className='linkedin'>
-              <FaLinkedin size={80} />
+              <FaLinkedin size={80} className='icone' />
             </div>
             <div className='instagram'>
-              <FaInstagram size={80} />
+              <FaInstagram size={80} className='icone'/>
             </div>
             <div className='github'>
-              <FaGithub size={80} />
+              <FaGithub size={80} className='icone'/>
             </div>
           </div>
           <img  src={foto} className='fotoperfil'/>

@@ -1,6 +1,7 @@
 #home {
   width: 100vw;
   height: 70vh;
+
 }
 
 .imgHome {
@@ -33,17 +34,39 @@
   50px 50px 50px rgb(248, 244, 244);
   position: absolute;
   top:0;
-  margin: 0 30%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
 }
 .iconsTodo{
   display:flex;
   justify-content: space-around;
   margin-top: 100px;
   color: #f5f2f2;
-
+  height: 5vw;
 }
 .fotoperfil{
   height: 150px;
   border-radius: 50%;
   margin-top: 50px;
+  width: 150px;
 }
+@media (max-width: 710px) {
+  .title2 h1{
+    margin: 0 auto;
+  }
+  .iconsTodo{
+    margin-top: 15px;
+  }
+  .title h1{
+    margin: 0 auto;
+  }
+  .icone {
+    height: 50px;
+  }
+}
+
